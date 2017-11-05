@@ -8,12 +8,18 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {RouterModule} from '@angular/router';
 import {SignupModule} from './signup/signup.module';
+import { LoginComponent } from './login/login.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    NavBarComponent
+    NavBarComponent,
+    LoginComponent,
+    ForgotPasswordComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
